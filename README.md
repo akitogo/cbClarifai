@@ -3,3 +3,5 @@ This is an unofficial Coldfusion Coldbox client for Clarifai's image recognition
 
 ## Prerequisites
 Before using this gem, make sure to [create an account for Clarifai](https://developer.clarifai.com/signup/) and create an application to obtain an API key.
+
+Please note if choose the free Community plan their license agreement requires you to display AI by Clarifai
