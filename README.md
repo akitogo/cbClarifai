@@ -51,7 +51,7 @@ component{
 	property name="predict" inject="predict@cbClarifai";
 	
 	function index(event,rc,prc){
-		// returns translated text as string
+		
 		var p=predict.predict( asset = 'https://www0.f1online.de/preW/004266000/4266061.jpg', modelname='general' );
 		writeDump(p);
 		abort;
